@@ -1,0 +1,23 @@
+{
+  "name": "sureprep-kanban-board",
+  "version": "1.0.0",
+  "description": "sureprep kanban board using react hooks",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "immutability-helper": "3.0.1",
+    "react": "16.11.0",
+    "react-dnd": "9.4.0",
+    "react-dnd-html5-backend": "9.4.0",
+    "react-dom": "16.11.0",
+    "react-scripts": "3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
