@@ -15,12 +15,12 @@
     
   display: flex;
   margin: 0 auto;
-  width: 96vw;
+  width: 92vw;
 }
 
 .column {
   min-width: 200px;
-  width: 23vw;
+  width: 22vw;
   height: 80vh;
   margin: 0 auto;
 }
@@ -133,6 +133,7 @@
   color: white;
   font-weight: 600;
   margin-right: 5px;
+  text-transform: uppercase;
 }
 
 .task-no{
