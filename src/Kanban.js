@@ -58,7 +58,7 @@ const Kanban = () => {
                           {item.title}
                           </div>
                           <div className='task-tags'>
-                            {item.tags.map((tag)=><span>{tag}</span>)}
+                            {item.tags.map((tag)=><span>{tag}&nbsp;</span>)}
                           </div>
                           <div className='task-other-info'>
                             <div>

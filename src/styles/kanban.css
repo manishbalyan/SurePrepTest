@@ -47,7 +47,7 @@
   font-size: 0;
   padding: 2px;
   float: right;
-  margin-right: 10px;
+  cursor: pointer;
 }
 
 .dots:before {
