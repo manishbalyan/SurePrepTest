@@ -1,0 +1,177 @@
+.kanban-header{
+  padding: 20px 0;
+}
+
+.heading-text{
+  margin-top: 0;
+}
+
+.logo-img{
+  width: 120px;
+  float: left;      
+}
+
+.board {
+    
+  display: flex;
+  margin: 0 auto;
+  width: 96vw;
+}
+
+.column {
+  min-width: 200px;
+  width: 23vw;
+  height: 80vh;
+  margin: 0 auto;
+}
+.column-head {
+  text-align: left;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.item {
+  padding: 15px 12px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(9,30,66,.25);              
+}
+
+.dots {
+  position: relative;
+  background-color: #d0cece;
+  border-radius: 5px;
+  font-size: 0;
+  padding: 2px;
+  float: right;
+  margin-right: 10px;
+}
+
+.dots:before {
+  position: absolute;
+  left: -10px; 
+  top: 0;      
+  content: '';
+  background-color: #d0cece;
+  border-radius: 5px;
+  font-size: 0;
+  padding: 2px;
+}
+
+.dots:after {
+  position: absolute;
+  left: 10px; 
+  top: 0;     
+  content: '';
+  background-color:#d0cece;
+  border-radius: 5px;
+  font-size: 0;    
+  padding: 2px;
+}  
+
+.task-meta{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.task-title{
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.task-tags{
+  display: flex;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #6c6cf5;
+  font-size: 10px;
+}
+
+.task-other-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons{
+  width: 14px;
+  margin-right: 5px;
+}
+
+.icons-link{
+  width: 11px;
+  margin-right: 5px;
+  margin-left: 10px;
+  height: 11px;
+}
+
+.normal{
+  background-color: #14a014;;
+}
+
+.high{
+  background-color: orange;
+}
+
+.urgent{
+  background-color: red;
+}
+
+.low{
+  background-color: #a9f1a9;
+}
+
+.priority{
+  font-size: 9px;
+  border-radius: 3px;
+  padding: 2px 5px;
+  color: white;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.task-no{
+  font-size: 9px;
+    color: grey;
+}
+
+.created-date{
+  font-size: 9px;
+  color: grey;
+  margin-top: 5px;
+}
+
+.task-info-text{
+  font-size: 9px;
+  color: grey;
+}
+
+.flex{
+  display: flex;
+}
+
+.add-user{
+  display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: 1px dashed #d6d6d6;
+    border-radius: 12px;
+    align-items: center;
+    color: #d6d6d6;
+    margin-right: 5px;
+}
+
+.user-img{
+  width: 26px;
+  border-radius: 13px;
+}
+
+.inline-flex{
+  display: inline-flex;
+}
